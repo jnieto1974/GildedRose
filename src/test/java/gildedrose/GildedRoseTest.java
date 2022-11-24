@@ -12,8 +12,7 @@ public class GildedRoseTest {
                                       int initialSellIn,
                                       int initialQuality,
                                       int expectedSellIn,
-                                      int expectedQuality
-    ) {
+                                      int expectedQuality) {
         Item item = new Item(itemName, initialSellIn, initialQuality);
         GildedRose gildedRose = new GildedRose(new Item[]{item});
 
