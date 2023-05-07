@@ -1,6 +1,7 @@
 package gildedrose;
 
-public class Item {
+public class
+Item {
     public String name;
 
     public int sellIn;
