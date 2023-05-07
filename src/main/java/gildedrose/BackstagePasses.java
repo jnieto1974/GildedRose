@@ -17,6 +17,7 @@ public class BackstagePasses extends ItemGlideRose{
             this.getItem().sellIn = this.getItem().sellIn - 1;
 
             if (this.getItem().sellIn < 0) {
+
                 this.getItem().quality = this.getItem().quality - this.getItem().quality;
             }
         }

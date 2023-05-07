@@ -15,10 +15,10 @@ public class ItemGlideRose {
     {
 
     }
-    public void updateSellinItem() {
+    protected void updateSellinItem() {
 
     }
-    public void updateQualityItem() {
+    protected void updateQualityItem() {
 
     }
 
