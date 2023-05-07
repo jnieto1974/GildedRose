@@ -15,4 +15,11 @@ public class ItemGlideRose {
     {
 
     }
+    public void updateSellinItem() {
+
+    }
+    public void updateQualityItem() {
+
+    }
+
 }

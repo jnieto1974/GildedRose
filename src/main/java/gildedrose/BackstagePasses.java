@@ -7,6 +7,23 @@ public class BackstagePasses extends ItemGlideRose{
         @Override
         public void updateQuality()
         {
+            updateQualityItem();
+            updateSellinItem();
+        }
+
+        @Override
+        public void updateSellinItem() {
+
+            this.getItem().sellIn = this.getItem().sellIn - 1;
+
+            if (this.getItem().sellIn < 0) {
+                this.getItem().quality = this.getItem().quality - this.getItem().quality;
+            }
+        }
+
+        @Override
+        public void updateQualityItem() {
+
             if (this.getItem().quality < GildedRose.MAX_QUALITY) {
                 this.getItem().quality = this.getItem().quality + 1;
 
@@ -21,11 +38,6 @@ public class BackstagePasses extends ItemGlideRose{
                         this.getItem().quality = this.getItem().quality + 1;
                     }
                 }
-            }
-            this.getItem().sellIn = this.getItem().sellIn - 1;
-
-            if (this.getItem().sellIn < 0) {
-                this.getItem().quality = this.getItem().quality - this.getItem().quality;
             }
         }
 }
