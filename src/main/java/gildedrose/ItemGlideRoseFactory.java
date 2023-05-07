@@ -1,7 +1,7 @@
 package gildedrose;
 
 
-public class ItemFactory {
+public class ItemGlideRoseFactory {
 
     public static final String AGED_BRIE = "Aged Brie";
     public static final String BACKSTAGE_PASSES_TO_A_TAFKAL_80_ETC_CONCERT = "Backstage passes to a TAFKAL80ETC concert";

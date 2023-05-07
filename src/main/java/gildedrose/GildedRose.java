@@ -6,7 +6,7 @@ class GildedRose {
     public static final int MAX_QUALITY = 50;
     ArrayList<ItemGlideRose> inventario = new ArrayList<ItemGlideRose>();
 
-    ItemFactory itemFactory = new ItemFactory();
+    ItemGlideRoseFactory itemFactory = new ItemGlideRoseFactory();
 
     public GildedRose(Item[] items) {
         ItemGlideRose itemGlideRose;
